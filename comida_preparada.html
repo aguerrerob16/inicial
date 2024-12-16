@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta title="VeganExtrem.com" />
+    <link rel="stylesheet" href="Estilo/estilos.css" />
+  </head>
+  <body>
+    <div class="cabecera">
+      <div class="conjunto">
+        <div id="botones">
+            <div class="configuracion">
+                <div class="idioma">
+                  <label for="idioma">Idioma:</label>
+                  <select id="idioma" name="idioma">
+                    <option value="espanol">Español</option>
+                    <option value="ingles">Inglés</option>
+                    <option value="frances">Francés</option>
+                    <option value="portugues">Portugués</option>
+                  </select>
+                </div>
+                <div class="moneda">
+                  <label for="moneda">Moneda:</label>
+                  <select id="moneda" name="moneda">
+                    <option value="euros">Euros (€)</option>
+                    <option value="libras">Libras (£)</option>
+                    <option value="dolares">Dólares ($)</option>
+                  </select>
+                </div>
+              </div>
+          <div class="usuario">
+            <a href="inicio_sesion.html">
+              <img src="img/img_cabecera/cuenta.png" />
+            </a>
+          </div>
+          <div class="contacto">
+            <a href="#">
+              <img src="img/img_cabecera/contacto.png" />
+            </a>
+          </div>
+          <div class="carrito">
+            <a href="carrito.html">
+              <img src="img/img_cabecera/carrito.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/img_cabecera/logo.png" />
+        </a>
+      </div>
+      <span class="texto">
+        <h1>Tienda Vegana de Extremadura</h1>
+      </span>
+      <div class="buscar">
+        <input type="search" placeholder="Buscar..." />
+      </div>
+      <div class="marquesina">
+        <marquee behavior="scroll" direction="left">
+          ¡Envíos GRATIS a partir de 30€!
+        </marquee>
+      </div>
+      <div id="cuerpo">
+        <div id="menu">
+          <table>
+            <tr>
+              <td>
+                <a href="#">
+                  <img
+                    src="img/img_menu/comida_rapida.png"
+                    alt="comida_rapida"
+                  />
+                </a>
+              </td>
+              <td>
+                <a href="frutas_y_verduras.html">
+                  <img src="img/img_menu/frutas_y_verduras.png"
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <img src="img/img_menu/packs.png" alt="packs" />
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <img src="img/img_menu/aceite.png" alt="aceites" />
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <img src="img/img_menu/oferta.png" alt="ofertas" />
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <img src="img/img_menu/embutido.png" alt="embutidos" />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <p>Comida preparada</p>
+                </a>
+              </td>
+              <td>
+                <a href="frutas_y_verduras.html">
+                  <p>Frutas y verduras</p>
+                </a>
+              </td>
+              <td>
+                <p>Packs y lotes</p>
+              </td>
+              <td>
+                <p>Aceite</p>
+              </td>
+              <td>
+                <p>Ofertas</p>
+              </td>
+              <td>
+                <p>Embutidos</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="comidarapida">
+      <table class="comida">
+        <tr>
+          <td rowspan="3">
+            <form class="filtro" method="post">
+              <p><label for="labelNombre">Nombre</label></p>
+              <p><input type="text" /></p>
+              <p>
+                <label for="labelprecio">Seleccione el rango de precios</label>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  id="labelpreciominimo"
+                  value="0-3€"
+                />0-3€
+              </p>
+              <p>
+                <input type="checkbox" id="labelpreciomedio" value="4-5€" />3-5€
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  id="labelpreciomedioalto"
+                  value="6-10€"
+                />6-10€
+              </p>
+              <p>
+                <input type="checkbox" id="labelprecioalto" value="+10€" />+10€
+              </p>
+              <p><label>Seleccione el tipo de carne</label></p>
+              <select id="provincia" required>
+                <option value="" disabled selected>
+                  Seleccione el tipo de carne
+                </option>
+                <option value="Pollo">Pollo</option>
+                <option value="Cerdo">Cerdo</option>
+                <option value="Ternera">Ternera</option>
+                <p><label for="labelEnviar"></label></p>
+              </select>
+              <p><input type="submit" value="Filtrar" /></p>
+            </form>
+          </td>
+          <td class="texto" colspan="4">Nuestra comida preparada</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="fingers_pollo.html">
+              <img
+                src="img/img_categoria_comida_rapida/fingers.jpg"
+                alt="fingers_de_pollo"
+              />
+            </a>
+          </td>
+          <td>
+            <img
+              src="img/img_categoria_comida_rapida/filete.jpg"
+              alt="filete_empanado"
+            />
+          </td>
+          <td>
+            <a href="albondigas.html">
+              <img
+                src="img/img_categoria_comida_rapida/albondigas.jpg"
+                alt="albondigas"
+              />
+            </a>
+          </td>
+          <td>
+            <img
+              src="img/img_categoria_comida_rapida/hamburguesa.jpg"
+              alt="hamburguesa"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="resalte">3.99€</span>
+            <a href="fingers_pollo.html">
+              <p>240g de fingers de pollo (congelados)</p>
+            </a>
+          </td>
+          <td>
+            <span class="resalte">7.49€</span>
+            <p>180g de filetes de pollo empanados</p>
+          </td>
+          <td>
+            <span class="resalte">6.99€</span>
+            <a href="albondigas.html">
+              <p>200g de albóndigas aptas para veganos</p>
+            </a>
+          </td>
+          <td>
+            <span class="resalte">3.49€</span>
+            <p>226g de hamburguesa carne vegana</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="pie">
+      <table>
+        <tr>
+          <td>
+            <p>Contacto: +34 666 66 66 66</p>
+            <p>Correo: contacto@veganextrem.com</p>
+          </td>
+          <td>
+            <p>Redes Sociales:</p>
+            <p>
+              <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+              <a href="#">Instagram</a>
+            </p>
+          </td>
+          <td>
+            <p>Avisos Legales</p>
+            <p>Política de Privacidad</p>
+            <p>© 2024 VeganExtrem</p>
+          </td>
+          <td>
+            <p>Confianza en cada paso</p>
+            <p>Tu seguridad, nuestra prioridad</p>
+            <p>Comprometidos contigo</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

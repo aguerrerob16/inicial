@@ -1,0 +1,429 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.cabecera {
+    background: #22AB74;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 165px;
+    z-index: 10;
+}
+
+.cabecera .logo {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 80px;
+}
+
+.cabecera .logo img {
+    width: 140px;
+    height: auto;
+}
+
+#botones {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#botones .usuario,
+#botones .contacto,
+#botones .carrito {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#botones img {
+    width: 2em;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.buscar {
+    text-align: center;
+    transform: translateY(-40px);
+}
+
+.conjunto {
+    position: fixed;
+    width: 100%;
+}
+
+.configuracion {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 20px;
+}
+  
+.configuracion select {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+.configuracion label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.marquesina {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#cuerpo #menu table {
+    background-color: #22AB74;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#cuerpo #menu img {
+    width: 20%;
+    height: 20%;
+}
+
+#cuerpo2 {
+    height: 120em;
+}
+
+#productos table {
+    padding-top: 335px;
+    text-align: center;
+    width: 100%;
+}
+
+#productos table .texto {
+    text-align: center;
+    font-size: 25px; 
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+#productos table img {
+    width: 20%;
+    text-align: center;
+    padding: 10%;
+}
+
+.resalte {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resalte_oferta {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(202, 3, 3);
+}
+
+.precio_rebajado {
+    text-decoration: line-through;
+}
+
+.comidarapida{
+    height: 30em;
+    padding-top: 90px;
+    padding-bottom: 11em;
+}
+
+.comidarapida .comida{
+    text-align: center;
+    margin-top: 260px;
+    width: 100%;
+}
+
+.comidarapida .comida img{
+    width: 30%;
+    text-align: center;
+}
+
+.comidarapida .texto {
+    text-align: center;
+    font-size: 20px;
+}
+
+.frutas_y_verduras .comida{
+    width: 100%;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.frutas_y_verduras .texto {
+    text-align: center;
+    font-size: 20px;
+}
+
+.frutas_y_verduras .comida img{
+    width: 50%;
+    text-align: center;
+}
+
+.filtro{
+    background-color: #cfcfcf;
+    padding: 9px;
+}
+
+.producto{
+    width: 100%;
+    padding-top: 350px;
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center;
+}
+
+.producto img{
+    text-align: center;
+    width: 150px;
+}
+
+.producto .principal{
+    width: 250px;
+}
+
+.pequeño{
+    font-size: small;
+}
+
+.pie {
+    background-color: #22AB74;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+}
+
+.pie table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.pie table td{
+    padding: 15px;
+    text-align: center;
+}
+
+.pie table a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.pie img {
+    margin-right: 5px;
+    margin-top: 19px;
+}
+
+.pie table td ul{
+    padding: 5px;
+    text-align: start;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.carrito2{
+    padding-top: 21em;
+}
+
+.carrito2 table{
+    text-align: center;
+    width: 100%;
+}
+
+.anadido{
+    width: 10em;
+}
+
+.btn1 {
+    background-color: #4CAF50; 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px;
+    font-size: 13px; 
+   
+}
+
+.i_s {
+    margin: 20px;
+    text-align: left;
+}
+
+.i_S label {
+    margin-top: 10px;
+}
+
+.i_s input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.i_s button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+#inicio_sesion {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.relojes{
+    padding-top: 21em;
+    text-align: start;
+    height: 150vh;
+    margin-left: 1%;
+}
+
+.relojes img{
+    width: 15%;
+    text-align: center;
+}
+
+.reloj1{
+    background-color: #469ed1;
+    left: 0%;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.reloj2{
+    background-color: #ff73f3;
+    float: right;
+    margin-right: 1%;
+    left: 100%;
+    text-align: center;
+}
+
+.reloj3{
+    background-color: #0b6d46;
+    float: right;
+    margin-right: 3%;
+   margin-left: 3%;
+   text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.cajas{
+    top: 0%;
+    text-align: start;
+    height: 120vh;
+}
+
+.cajas img{
+    width: 20%;
+    text-align: center;
+}
+
+.caja1{
+   float: left;
+   background-color: #469ed1;
+   text-align: center;
+   width: 25%;
+}
+
+.caja2{
+   float: right;
+   background-color: #ff73f3;
+   text-align: center;
+   width: 25%;
+}
+
+.caja3{
+   background-color: #4CAF50;
+   text-align: center;
+   width: 25%;
+   margin-left: 40%;
+   padding-bottom: 1%;
+}
+
+.blog{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px black;
+    float: left;
+}
+.blog img{
+    width: 30%;
+}
+
+.blog h4{
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.blog p{
+    font-size: 0.9em;
+    text-align: center;   
+    margin-bottom: 20px;
+}
+
+.blog1{
+    float: left;
+}
+
+.blog2{
+    float: right;
+    right: 0%;
+}
+
+.tabla1{
+    float: left;
+    background-color: #ccc;
+    text-align: center;
+    margin-top: 20em;
+}
+
+.tabla2{
+    float: right;
+    margin-right: 3em;
+    text-align: center;
+}
+
+.info_contacto{
+    text-align: center;
+}
+
+.info_contacto img{
+    width: 30%;
+}
